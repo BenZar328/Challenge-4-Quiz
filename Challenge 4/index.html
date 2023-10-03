@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+    <h1>Harry Potter Questionnaire!</h1>
+    <div id="start">
+        <h2>See how well you know the wizard world!</h2>
+        <button id="start-button">Start</button>
+    </div>
+    <div id="quiz">
+        <p id="timerId">Time Left:</p>
+        <div id="quiz-container">
+          <div id="quiz-question">
+
+          </div>
+          <div id="quiz-options">
+
+          </div>
+        </div>
+    </div>
+    <div id="game-over">
+        <h1>Quiz Finished!</h1>
+        <h2 id="quiz-score"></h2>
+
+        <form>
+          <label for="initials">Initials:</label>
+          <input type="text" id="initials" name="initials" />
+          <button id="save-score">Save Score</button>
+        </form>
+    </div>
+
+      <script src="./assets/script.js"></script>
+</body>
+</html>
